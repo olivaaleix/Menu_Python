@@ -8,10 +8,12 @@ def KeyNum():
     
     while(not correct):
         
-        print("Welcome to this menu. You have the following options: ")
-        print ("1.- Option 1")
-        print ("2.- Option 2")
-        print ("3.- Option 3")
+        print(''' 
+            Welcome to this menu. You have the following options: 
+            1.- Option 1
+            2.- Option 2
+            3.- Option 3
+        ''')
 
         try:
             num = int(input("Give me an option: "))
