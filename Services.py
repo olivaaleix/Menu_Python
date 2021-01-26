@@ -1,5 +1,4 @@
-#   Menu of PID Windows, this menu will have the diferents functions
-#   that 
+#   Menu of PID Windows
 
 import psutil
 
