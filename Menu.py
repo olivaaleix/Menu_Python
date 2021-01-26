@@ -9,10 +9,11 @@ def KeyNum():
     while(not correct):
         
         print(''' 
-            Welcome to this menu. You have the following options: 
-            1.- Option 1
-            2.- Option 2
-            3.- Option 3
+            Welcome to this menu. You have the following options:
+
+                        1.- PID Windows
+                        2.- Option 2
+                        3.- Option 3
         ''')
 
         try:
@@ -31,7 +32,7 @@ while not exit:
     option = KeyNum()
 
     if option == 1:
-        print ("Opcion 1")
+        print ("PID Windows")
     elif option == 2:
         print ("Option 2")
     elif option == 3:
